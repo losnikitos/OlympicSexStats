@@ -6,8 +6,18 @@
     font-style: normal;
 }
 
+h1
+{
+    /*font-weight: 300;*/
+    font-size: 1.5em;
+}
+
 .year
 {
+    font: 'Open Sans';
+    font-size: 30px;
+    font-weight: 300;
+    color: #222;
     text-align: center;
     margin-top: 30px;
 }
@@ -28,10 +38,4 @@
     text-align: right;
 }
 
-.year
-{
-    font: 'Open Sans';
-    font-size: 30px;
-    font-weight: 300;
-    color: #222;
-}
+
