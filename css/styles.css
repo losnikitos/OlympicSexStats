@@ -6,10 +6,35 @@
     font-style: normal;
 }
 
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 960px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 h1
 {
-    /*font-weight: 300;*/
+    text-align: center;
     font-size: 1.5em;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 50px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #eee;
 }
 
 .year
@@ -24,9 +49,16 @@ h1
 
 .icons
 {
-    font-family: 'FontAwesome'
+    font-family: 'FontAwesome';
 }
 
+.col
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+    float: left;
+}
 .men
 {
     color: steelblue;
@@ -38,4 +70,11 @@ h1
     text-align: right;
 }
 
+.row:after {
+    clear: both;
+}
 
+.row:before, .row:after {
+    display: table;
+    content: " ";
+}
